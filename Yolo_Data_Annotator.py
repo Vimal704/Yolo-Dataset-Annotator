@@ -12,8 +12,8 @@ def Annotator(image):
     # prevy = -1
     boxes = []
     def draw(event, x, y, flags, params):
-        global flag,ix, iy #, prevx, prevy
-        nonlocal img, img_copy
+        # global flag,ix, iy #, prevx, prevy
+        nonlocal img, img_copy, flag, ix, iy
         if event == 1:
             flag = True
             ix = x
